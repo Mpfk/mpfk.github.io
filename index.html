@@ -22,10 +22,11 @@
             
                 <!-- Sideabar-->
                 <div class="d-none d-md-block col-md-1 background-primary sidebar">                    
-                    <object data="/assets/img/profile.webp" type="image/webp" class="rounded-circle img-fluid profile-pic mt-3 mb-3" alt="Profile Picture">
+                    <picture  class="rounded-circle img-fluid profile-pic mt-3 mb-3">
+                        <source type="image/webp" srcset="/assets/img/profile.webp">
+                        <source type="image/jpg" srcset="/assets/img/profile.jpg">
                         <img src="/assets/img/profile.jpg" alt="Profile Picture">
-                    </object>
-
+                    </picture>
                     <ul class="icon-nav">
                         <li><a target="_blank" href="mailto:contact@mattlydon.me"><i class="fa-solid fa-mailbox"></i></a></li>
                         <li><a target="_blank" href="/assets/files/resume-2022_12_18.pdf"><i class="fa-solid fa-file-arrow-down"></i></a></li>
@@ -40,9 +41,11 @@
                 <div class="col-12 col-md-11">
                     <div class="title pt-5 pt-md-4 pt-xl-5 ps-md-3 pb-2 text-center text-md-start">
                         <div class="d-md-none">
-                            <object data="/assets/img/profile.webp" type="image/webp" class="rounded-circle img-fluid profile-pic" alt="Profile Picture">
+                            <picture  class="rounded-circle img-fluid profile-pic">
+                                <source type="image/webp" srcset="/assets/img/profile.webp">
+                                <source type="image/jpg" srcset="/assets/img/profile.jpg">
                                 <img src="/assets/img/profile.jpg" alt="Profile Picture">
-                            </object>
+                            </picture>
                         </div>
                         <h1>Matt Lydon</h1>
                         Solutions Architect - Aerospace & Satellite Solutions at Amazon Web Services (AWS)
