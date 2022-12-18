@@ -145,6 +145,15 @@ h1 {
     width: 100px;
     margin: 1em;
 }
+.cert-badges object {
+    width: 100px;
+    margin: 1em;
+    text-align: center;
+    vertical-align: text-top;
+}
+.cert-badges a {
+    text-decoration: none;
+}
 
 /* Section: footer */
 .footer {
