@@ -145,9 +145,10 @@ h1 {
     width: 100px;
     margin: 1em;
 }
-.cert-badges object {
+.cert-badges picture {
     width: 100px;
     margin: 1em;
+    padding: 0;
     text-align: center;
     vertical-align: text-top;
 }
