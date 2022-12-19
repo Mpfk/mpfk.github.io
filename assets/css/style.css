@@ -162,4 +162,9 @@ h1 {
     border-top: solid thick var(--primary-color);
     background-color: #290e14;
     color: white;
+    font-size: small;
+    line-height: 2em;
+}
+.footer a {
+    color: white;
 }
