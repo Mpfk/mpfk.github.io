@@ -90,17 +90,18 @@ h1 {
 
 /* Section: mobile-pill */
 .mobile-pill {
-    text-align: center;
-    width: max-content;
+    display: inline-block;
+    width: fit-content;
     border-radius: 2em;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
+    padding: 0.25em 0.75em;
+    margin: 0.5em 0;
 }
 .mobile-pill .icon-nav li {
-    display: inline;
-    margin: 0 0.5em 0.5em 0;
+    display: inline-block;
+    margin: 0 0.5em;
+}
+.mobile-pill a {
+    font-size: x-large;
 }
 
 
