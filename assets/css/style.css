@@ -19,6 +19,9 @@ body {
 h1 {
     font-weight: 700;
 }
+.text-white {
+    color: white;
+}
 
 
 /* Device Light / Dark mode settings */
